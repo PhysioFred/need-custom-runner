@@ -6,7 +6,8 @@ jobs:
   init:
       runs-on: self-hosted
       steps: 
-        - run: echo "Hello there MATE"
+        - run: echo "Hello there from down under"
         - run: echo $HOSTNAME
-        - run: echo "git good scrub"
+        - run: echo $SHELL
+        - run: echo $PWD
       
