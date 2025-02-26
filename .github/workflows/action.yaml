@@ -8,4 +8,5 @@ jobs:
       steps: 
         - run: echo "Hello there MATE"
         - run: echo $HOSTNAME
+        - run: echo "git good scrub"
       
